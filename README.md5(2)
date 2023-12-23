@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+int main () {
+char word;
+cout<<"please enter a word:";
+cin>>word;
+ 
+switch (word) {
+ case 'A':
+  cout<<"vowel 1";
+  break;
+ case 'a':
+  cout<<"vowel 2";
+  break;
+ case 'E':
+  cout<<"vowel 3";
+  break;
+ case 'e':
+  cout<<"vowel 4";
+  break;
+ case 'I':
+  cout<<"vowel 5";
+  break;
+ case 'i': 
+  cout<<"vowel 6";
+  break;
+ case 'U':
+  cout<<"vowel 7";
+  break;
+ case 'u':
+  cout<<"vowel 8";
+  break;
+ case 'O':
+     cout<<"vowel 9";
+  break;
+ case 'o':
+     cout<<"vowel 10";
+  default:
+  cout<<"not vowel";   
+} 
+}
